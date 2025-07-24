@@ -11,9 +11,7 @@ export default defineNuxtConfig({
     '@vee-validate/nuxt',
     '@pinia/nuxt',
     '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxt/eslint'
-  ],
+    '@nuxt/image'  ],
 
   runtimeConfig: {
     public: {
