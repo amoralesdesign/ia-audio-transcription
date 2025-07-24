@@ -38,7 +38,7 @@ npm run dev
 ### AWS serverless deplo (Not required for test)
 
 For Deploy Cognito in AWS:
-````bash
+```bash
 cd backend
 npm install
 
