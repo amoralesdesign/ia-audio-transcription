@@ -1,0 +1,79 @@
+# === DEPENDENCIES ===
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# === FRONTEND (Nuxt.js) ===
+frontend/.nuxt/
+frontend/.output/
+frontend/.nitro/
+frontend/dist/
+
+# === BACKEND (Serverless) ===
+backend/.serverless/
+backend/dist/
+backend/coverage/
+backend/.build/
+backend/.esbuild/
+
+# === AWS ===
+.aws/
+*.pem
+
+# === LOGS ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# === RUNTIME ===
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# === COVERAGE ===
+lib-cov/
+coverage/
+*.lcov
+.nyc_output/
+
+# === TESTING ===
+.grunt/
+bower_components/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === MISC ===
+*.tgz
+*.tar.gz
+.cache/
+.parcel-cache/
+.tmp/
+.temp/
+
+# === Específicos del proyecto ===
+# Audio files (muy grandes)
+*.mp3
+*.wav
+*.mp4
+*.avi
+# Excepto archivos de ejemplo pequeños
+!examples/**/*.mp3
+!examples/**/*.wav 
