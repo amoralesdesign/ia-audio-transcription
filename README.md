@@ -17,7 +17,7 @@ npm install
 ```
 
 > [!NOTE]  
-> Note: To facilitate testing, the .env files have been uploaded. 
+> To facilitate testing, the .env files have been uploaded. 
 
 Run project:
 ```
@@ -27,7 +27,7 @@ npm run dev
 ```
 
 > [!WARNING]  
-> Note: First time fails to recognize typescript syntax, restart it a second time and it will not fail.
+> First time fails to recognize typescript syntax, restart it a second time and it will not fail.
 
 ### AWS serverless deploy
 
